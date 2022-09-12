@@ -10,20 +10,3 @@ int main(void)
 			return (1);
 }
 
-
-Now for BETTY after cloning Betty and moving to /bin/
-touch testBetty.c
-#include <stdio.h>
-
-int main(void)
-{
-	int a = 5;
-	int b = 4;
-
-
-	for (a < b;;)
-	{
-		    printf("%d\n", a++);
-	}
-}
-
